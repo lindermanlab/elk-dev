@@ -4,7 +4,7 @@ This repository contains code for the paper "Towards Scalable and Stable Paralle
 
 ![Figure 1](./ims/banner_schematic.png)
 
-Our paper and codebase build on the work of YH Lim, *et al.*, in "Parallelizing non-linear sequential models over the sequence length", ([paper](https://arxiv.org/abs/2309.12252), [codebase](https://github.com/machine-discovery/deer)) published in ICLR 2024. This work from Machine Discovery Ltd is licensed under the [BSD 3-Clause License](https://github.com/machine-discovery/deer/blob/main/LICENSE). The particular files in our codebase from DEER are `deer.py` and the folder `fig3`; and much of the set-up in `qdeer_profile_exps_figs_2_5_6` comes from the analgoous [experiments](https://github.com/machine-discovery/deer/tree/main/experiments/01_speed_benchmark) in DEER, though we contribute the memory profiling code.
+Our paper and codebase build on the work of YH Lim, *et al.*, in "Parallelizing non-linear sequential models over the sequence length", ([paper](https://arxiv.org/abs/2309.12252), [codebase](https://github.com/machine-discovery/deer)) published in ICLR 2024. This work from Machine Discovery Ltd is licensed under the [BSD 3-Clause License](https://github.com/machine-discovery/deer/blob/main/LICENSE). The particular files in our codebase from DEER are `deer.py` and the folder `fig3`; and much of the set-up in `qdeer_profile_exps_figs_2_5_6` comes from the analogous [experiments](https://github.com/machine-discovery/deer/tree/main/experiments/01_speed_benchmark) in DEER, though we contribute the memory profiling code.
 
 ## Installation Instructions
 
