@@ -2,6 +2,14 @@
 gru_timing_exp.py
 timing experiments for GRU
 In order to generate Figures2 and Figures6, the preferred approach is to set up a sweep in wandb, and to pass the sweep id as an argument
+
+Code adapted from the original DEER codebase by Lim et al. (2024): https://github.com/machine-discovery/deer 
+Based on commit: 17b0b625d3413cb3251418980fb78916e5dacfaa (1/18/24) 
+Copyright (c) 2023, Machine Discovery Ltd 
+Licensed under the BSD 3-Clause License (see LICENSE file for details).
+Based on the files in: https://github.com/machine-discovery/deer/tree/main/experiments/01_speed_benchmark
+
+Modifications for logging to wandb by Xavier Gonzalez and Andrew Warrington (2024).
 """
 
 import jax

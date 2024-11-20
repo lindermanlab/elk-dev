@@ -1,5 +1,13 @@
 """
 Helper functions for memory and time profiling
+
+Code adapted from the original DEER codebase by Lim et al. (2024): https://github.com/machine-discovery/deer 
+Based on commit: 17b0b625d3413cb3251418980fb78916e5dacfaa (1/18/24) 
+Copyright (c) 2023, Machine Discovery Ltd 
+Licensed under the BSD 3-Clause License (see LICENSE file for details).
+Based on the files in: https://github.com/machine-discovery/deer/tree/main/experiments/01_speed_benchmark
+
+Modifications for memory profiling by Xavier Gonzalez (2024).
 """
 
 from typing import Tuple, Callable, Sequence, List
@@ -119,7 +127,6 @@ Memory profiling helper functions
 
 ------------------------------------------------------------------------------------------------------------------------
 """
-
 
 
 class MemoryMonitor:

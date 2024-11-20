@@ -2,7 +2,16 @@
 mem_exp.py
 show memory usage of seq, quasi, and deer
 target is to use V100 with 16 GB memory
+
+Code adapted from the original DEER codebase by Lim et al. (2024): https://github.com/machine-discovery/deer 
+Based on commit: 17b0b625d3413cb3251418980fb78916e5dacfaa (1/18/24) 
+Copyright (c) 2023, Machine Discovery Ltd 
+Licensed under the BSD 3-Clause License (see LICENSE file for details).
+Based on the files in: https://github.com/machine-discovery/deer/tree/main/experiments/01_speed_benchmark
+
+Modifications for logging to wandb by Xavier Gonzalez and Andrew Warrington (2024).
 """
+
 import os
 
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false"
