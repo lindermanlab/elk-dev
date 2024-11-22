@@ -23,6 +23,10 @@ pip install --upgrade -e .
 
 We originally wrote the paper in Python 3.9, but this required running in a singularity container and using old verisons of JAX. Using the code is much easier in Python 3.12.1 and the provided `setup.py`.
 
+## Versions
+
+This is a living repo which will change as we develop more applicatons. See [the tag v1.0.0](https://github.com/lindermanlab/elk/releases/tag/v1.0.0) for the version corresponding to our [NeurIPS paper](https://arxiv.org/abs/2407.19115)
+
 ## Citation
 ```
 @inproceedings{gonzalez2024scalable,
