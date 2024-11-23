@@ -18,10 +18,16 @@ pip install -U "jax[cuda12]"
 
 After installing JAX, pip install the package with
 ```
-pip install --upgrade -e .
+pip install --upgrade -e .[cr]
 ```
 
 We originally wrote the paper in Python 3.9, but this required running in a singularity container and using old verisons of JAX. Using the code is much easier in Python 3.12.1 and the provided `setup.py`.
+
+### Installation into a Google colab
+
+Google Colab runs with Python 3.10
+
+To install into a Google colab, `git clone` this repo, and then `cd` into `elk`. First, `import jax`, and then run `pip install --upgrade --no-deps -e .[flex]`
 
 ## Citation
 ```
