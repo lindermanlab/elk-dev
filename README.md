@@ -29,6 +29,10 @@ Google Colab runs with Python 3.10
 
 To install into a Google colab, `git clone` this repo, and then `cd` into `elk`. First, `import jax`, and then run `pip install --upgrade --no-deps -e .[flex]`
 
+## Versions
+
+This is a living repo which will change as we develop more applications. See [the tag v1.0.0](https://github.com/lindermanlab/elk/releases/tag/v1.0.0) for the version corresponding to our [NeurIPS paper](https://arxiv.org/abs/2407.19115)
+
 ## Citation
 ```
 @inproceedings{gonzalez2024scalable,
