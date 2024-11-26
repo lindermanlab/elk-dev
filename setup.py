@@ -21,6 +21,10 @@ base_requirements = [
 # Create flexible requirements by removing version specifiers
 flex_requirements = [req.split("==")[0] for req in base_requirements]
 
+
+# Print the flexible requirements for debugging
+print("Flexible requirements are:", flex_requirements)
+
 setup(
     name="elk",
     version="0.1",
